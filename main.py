@@ -8,8 +8,8 @@ layout=[    [sg.Text('Invia il tuo messaggio:',font=('Sans-Serif',10,'bold'))],
             [sg.Multiline(default_text='Digita qui il tuo messaggio...',size=(60,5),no_scrollbar=True,)],
             [sg.Input('img',key='img', enable_events=True,visible=False)],
             [sg.Column(layout1,expand_x=True, element_justification='center')] ]
-user_id="-754885238"
-token="5186978839:AAEHxiWj4xCFRASzMxTMWp_YRTZgr0HPDMA"
+#user_id="Inserisci user id"
+#token="Inserisci Token"
 bot= telegram.Bot(token=token)
 path='img'
 window=sg.Window('TelePonti', layout)
